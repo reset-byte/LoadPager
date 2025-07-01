@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "LoadPager"
 include(":app")
+include(":pageloadlib")

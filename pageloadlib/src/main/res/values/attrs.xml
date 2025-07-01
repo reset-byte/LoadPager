@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="common_ui_CommonLoadingView">
+        <attr name="common_ui_loading_anim" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ErrorTipView" tools:ignore="ResourceName">
+        <attr name="error_icon" format="reference" />
+        <attr name="tip_text" format="string" />
+        <attr name="tip_text_color" format="reference|color" />
+        <attr name="tip_text_size" format="dimension" />
+        <attr name="retry_text" format="string" />
+        <attr name="retry_text_color" format="reference|color" />
+        <attr name="retry_text_size" format="dimension" />
+        <attr name="retry_background" format="reference|color" />
+        <attr name="retry_width" format="dimension" />
+        <attr name="retry_height" format="dimension" />
+        <attr name="item_first_margin" format="dimension" />
+        <attr name="item_second_margin" format="dimension" />
+    </declare-styleable>
+</resources>

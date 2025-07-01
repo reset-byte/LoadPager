@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <FrameLayout
+        android:id="@+id/customViewArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout
+        android:id="@+id/brlSmartRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/customViewArea"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:ignore="MissingClass">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/brlRecyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="9.5dp"
+            android:groupIndicator="@null" />
+
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+
+    <ImageButton
+        android:id="@+id/brlBackToTop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="50dp"
+        android:background="@null"
+        android:visibility="gone"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+        tools:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        android:font="@font/iconfont2018"
+        app:font="@font/iconfont2018" />
+
+    <font android:font="@font/icomoon"
+        app:font="@font/icomoon" />
+
+    <font android:font="@font/helvetica_bold"
+        app:font="@font/helvetica_bold"  />
+</font-family>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">pageload</string>
+    <!--以下是自定义的-->
+    <string name="common_ui_not_net_msg">网络请求失败，请检查您的网络设置</string>
+    <string name="common_ui_error_view_request_error_tip">- 数据加载失败 -</string>
+    <string name="common_ui_error_view_network_error_tip">暂无网络</string>
+    <string name="common_ui_error_view_network_error_refresh">刷新</string>
+    <string name="common_ui_error_view_empty_text">暂无数据</string>
+    <string name="common_ui_error_view_retry_btn_text">重新加载</string>
+    <string name="common_ui_search_title">搜索</string>
+</resources>
